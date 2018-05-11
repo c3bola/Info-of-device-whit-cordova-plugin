@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript">
+
+    //add event listener
+    document.addEventListener("deviceready", onDeviceReady, false);
+
+    function onDeviceReady() { 
+       console.log(device); // device object 
+       console.log(device.name); // Gives the name of device.
+       console.log(device.uuid ); // Gives the UUID.
+    }
+
+    </script>
+  </head>
+  <body>
+
+  </body>
+</html>
